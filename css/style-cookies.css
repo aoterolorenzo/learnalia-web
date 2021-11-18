@@ -1,0 +1,46 @@
+
+.cookies-aviso {
+    display: none;
+    background-color: #F8EC79;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width:100%;
+    box-shadow: 0px -4px 16px 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px -4px 16px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px -4px 16px 4px rgba(0,0,0,0.3);
+    z-index: 10;
+}
+.cookies-aviso h4{
+    margin: 0;
+}
+.cookies-aviso p{
+    margin-bottom: 10px;
+}
+
+.cookies-aviso.activo {
+    display: block;
+}
+
+.cookies-parrafo {
+    font-size: 11px;
+}
+
+.cookies-button {
+    background-color: #2E4051;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+}
+.cookies-button:hover {
+    background-color: #343a40;
+}
+
+.cookies-enlace {
+    text-decoration: none;
+    color: #343a40;
+    font-size: 14px;
+}
